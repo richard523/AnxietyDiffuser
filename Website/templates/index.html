@@ -1,0 +1,43 @@
+
+{% include 'header.html' %}
+        <!-- Masthead-->
+        <section class="masthead">
+            <div class="py-5 container align-items-center">
+                <div class="justify-content-center">
+                    <div class="text-center container">
+                            <div class="container px-4 px-lg-5">
+                                <div class="row gx-4 gx-lg-5 justify-content-center">
+                                    <div class="col-lg-8 py-5">
+                                        <h3 class="text-white">Calm your mind</h3>
+                                        <audio>
+                                            <source src="./static/assets/img/sound.mp3">
+                                        </audio>
+                                        <script>
+                                            window.addEventListener('click', () => {
+                                                document.getElementById("text-white").play();
+                                            });
+                                        </script>
+                                        <div class="paragraph content text-justify col-lg-8 py-2">
+                                            {% for para in ai_answer %}
+                                               <h6 class="color-white"> {{ para }}</h6>
+                                            {% endfor %}
+                                        </div>
+                                        <form class="was-validated" method="post">
+                                            <div class="mb-3">
+                                              
+                                                <label for="validationTextarea"></label>
+                                                <textarea class="form-control " id="validationTextarea" name="user_input" placeholder="Write things you love, e.g. cats, golden retriver, forest." required></textarea>
+                                             </div>
+                                            <button class="btn btn-primary" type="submit"><i class="fa-solid fa-square-arrow-up-right fa-2xl"></i></button>
+                                        </form>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            {% include 'footer.html' %}
+        </section>
+        <!-- About-->
+

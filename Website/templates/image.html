@@ -1,0 +1,40 @@
+{% include 'header.html' %}
+
+        <!-- Masthead-->
+        <section class="masthead">
+            <div class="py-5 container align-items-center">
+                <div class="justify-content-center">
+                    <div class="text-center container">
+                            <div class="container px-4 px-lg-5">
+                                <div class="row gx-4 gx-lg-5 justify-content-center">
+                                    <div class="col-lg-8 py-5">
+                                        <form class="was-validated" method="post">
+                                          <div class="mb-3">
+                                              <h3 class="text-white">What image should I generate for you?</h3>
+                                              
+                                            <label for="validationTextarea"></label>
+                                            <textarea class="form-control " id="validationTextarea" name="image_input" placeholder="Write here your questions" required></textarea>
+                                          </div>
+                                            <button class="btn btn-primary" type="submit"><i class="fa-solid fa-square-arrow-up-right fa-2xl"></i></button>
+                                        </form>
+                                        <div id="videoPlayer">
+                                            <img src="https://media.giphy.com/media/3o7aCSPqXE5C6T8tBC/giphy.gif" alt="GIF">
+                                            <img class="play-btn" src="https://cdn.iconscout.com/icon/free/png-256/play-button-452-1163339.png" alt="Play">
+                                        </div>
+                                    </div>
+
+                                         {% if ai_image %}
+                                            <img class="text-white py-4 text-justify" src="{{ ai_image }}" height="500" width="500">
+                                         {% endif %}
+
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            {% include 'footer.html' %}
+        </section>
+
+
+
+
