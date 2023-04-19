@@ -1,5 +1,16 @@
 # AnxietyDiffuser AKA Calmify AKA Fixed Point Meditation
 
+Introducing our StyleGAN calming app - find inner peace with calming images and inspiring quotes. Manage anxiety and relax with our app. Seeking tranquility? Try it now.
+
+https://user-images.githubusercontent.com/78242653/232967130-ee6c3e68-5fc0-427c-92b3-66a6430550a3.mp4
+
+
+
+
+
+
+
+
 ## Inspiration
 We all have loved ones who suffer from panic attacks and extreme anxiety. As bystanders to witnessing friends and family go through this intense experience, we wanted to create something that can instantly calm the mind. 
 
