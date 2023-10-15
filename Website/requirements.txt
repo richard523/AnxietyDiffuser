@@ -8,8 +8,6 @@ charset-normalizer==3.3.0
 click==8.1.7
 cryptography==3.4.8
 dbus-python==1.2.18
-distro==1.7.0
-distro-info==1.1+ubuntu0.1
 dominate==2.8.0
 Flask==3.0.0
 Flask-Bootstrap==3.3.7.1
