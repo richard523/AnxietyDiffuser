@@ -17,7 +17,7 @@ packaging==23.2
 PyGObject==3.42.1
 PyJWT==2.3.0
 pyparsing==2.4.7
-python-dotenv==1.0.0
+python-dotenv==0.21.1
 PyYAML==5.4.1
 requests==2.31.0
 SecretStorage==3.3.1
