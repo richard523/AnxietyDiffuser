@@ -7,8 +7,10 @@ from flask_bootstrap import Bootstrap
 
 
 app = Flask(__name__)
+
 load_dotenv()
 app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
+app.secret_key = os.environ.get("APP_SECRET")
 Bootstrap(app)
 
 
